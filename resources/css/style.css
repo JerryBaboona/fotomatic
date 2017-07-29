@@ -213,8 +213,7 @@ header .mobile {
   }
 }
 
-/* Features Section */
-
+/*Features section styling*/
 #features-section {
   display: flex;
   justify-content: space-between;
@@ -232,7 +231,12 @@ header .mobile {
 .feature .image-container {
   width: 90%;
   height: 65%;
-  margin: 0 auto;
+  margin: 32px 32px 40px 32px;
+}
+
+.feature .image-container img {
+  width: 100%;
+  height: auto;
 }
 
 .feature h2 {
