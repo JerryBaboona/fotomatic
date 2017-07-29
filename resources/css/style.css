@@ -114,6 +114,7 @@ header .mobile {
 .banner {
   background-image: url("../images/banner-landingpage.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 #sign-up-section {
@@ -403,7 +404,7 @@ header .mobile {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section .center, .content {
+  #quotes-section .center .content {
     padding: 30px 10px 30px 10px;
   }
 
