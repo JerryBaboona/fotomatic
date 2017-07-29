@@ -34,13 +34,13 @@ html {
   }
 }
 
-/* Header */
-
+/*Header styling*/
 header {
   position: fixed;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 5;
 }
 
 header .content {
@@ -110,7 +110,11 @@ header .mobile {
   }
 }
 
-/* Sign Up Section */
+/*Sign up section and banner styling*/
+.banner {
+  background-image: url("../images/banner-landingpage.jpg");
+  background-size: cover;
+}
 
 #sign-up-section {
   display: flex;
@@ -124,6 +128,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-top: 170px;
+  margin-left: 100px;
 }
 
 #sign-up-cta .content {
